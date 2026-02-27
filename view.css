@@ -1,4 +1,9 @@
 *{  box-sizing: border-box;}
+
+body {
+    overflow: hidden;
+  }
+
 .di-wi{
     position:fixed;
     bottom:5%;
@@ -80,12 +85,13 @@
     color:peachpuff;
     transform:scale(1.005)
 }
+
 .optional{
  display: flex;
  gap:50px;
  align-items: center;
  flex-direction: column; 
- margin-top: 10%;
+ padding-top: 10%;
 }
 .option-none{
     display:none;
