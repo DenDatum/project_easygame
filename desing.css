@@ -1,0 +1,29 @@
+*{box-sizing:border-box;}
+body {
+    overflow: hidden;
+    background-color: black;
+  }
+.menu{
+display: flex;
+flex-direction: column; 
+gap: 10px;
+align-items: center;
+justify-content: center;
+height: 100vh;
+}
+.action{
+    height: 30px;
+    width: 20%;
+    -webkit-box-shadow: 1px 2px 27px 15px rgba(145, 12, 2, 0.53);
+-moz-box-shadow: 1px 2px 27px 15px rgba(145, 12, 2, 0.53);
+box-shadow: 1px 2px 27px 15px rgba(145, 12, 2, 0.53);
+background-image:url() }
+.beauti{
+position: absolute;
+ height:400px ;
+ width: 30%;
+ border:1px solid black;
+ top:50%;
+ left:50%;
+ transform: translate(-50%, -50%);
+}
