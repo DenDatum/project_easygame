@@ -35,3 +35,22 @@ z-index: -1;
  background-repeat:no-repeat ;
  background-position: center;
 }
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.modal{
+background-color: rgb(59, 47, 47);
+width: 300px;
+height: 500px;
+z-index: 99;
+position: absolute;
+top:15%;
+left:32%;
+border-radius: 10px;
+}
+.ears{
+    height:20px;
+    width: 280px;
+    margin: 10px;
+}
